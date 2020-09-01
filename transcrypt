@@ -423,7 +423,7 @@ save_helper_hooks() {
 # write the configuration to the repository's git config
 save_configuration() {
 	save_helper_scripts
-	save_helper_hooks
+# 	save_helper_hooks
 
 	# write the encryption info
 	git config transcrypt.version "$VERSION"
